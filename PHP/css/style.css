@@ -1,0 +1,27 @@
+/*
+*    DESCRIPTION     :
+*        Manage the style of a text editor
+*/
+
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.button{
+    background:#f90;
+    color: #fff;
+    font-family:Calibri;
+    padding:6px 30px;
+    border-bottom:3px solid #925b08;
+    border:none;
+    border-radius:5px;
+}
+
+#editor{
+    padding:15px 15px; 
+    border:1px solid #D6D6D6; 
+    border-radius: 4px; 
+    width: 600px; 
+    height: 350px;
+}

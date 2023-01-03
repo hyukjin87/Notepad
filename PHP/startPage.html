@@ -1,0 +1,32 @@
+<!--
+    DESCRIPTION     :
+        This website is a text editor made of HTML and PHP.
+        Using jquery and ajax, open or save a file.
+        The list of files consists of files located in the myFiles folder.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JQUERY AND JSON BASED TEXT EDITOR</title>
+    <link rel="STYLESHEET" type="text/css" href="css/style.css">
+    
+  </head>
+  <body>
+    <div id="files">
+        <b>Open File List: </b><select id="fileList">
+            <option id="fileSelect" selected="selected"><b>File List</b></option>
+        </select>
+        <span style="font-size: 8px;">(File folder name is [myFiles], please check path)</span>
+    <div>        
+        <input type="button" id="btn_openFile" value="Open File" class="button">
+        <input type="button" id="btn_saveFile" value="Save File" class="button">
+        <span id="namePrompt"><b>Save File Name: </b></span>
+        <input type="text" id="saveFileName">
+    </div>
+    <textarea id="editor" contenteditable="true"></textarea>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/editor.js"></script>
+  </body>
+</html>
