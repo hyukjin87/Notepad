@@ -35,7 +35,7 @@
                     Grid.Row="2" Grid.ColumnSpan="2" 
                     VerticalAlignment="Center" 
                     Margin="20,0,0,0">
-            <Bold>Conatct:</Bold> hkwon2054@conestogac.on.ca
+            <Bold>Conatct:</Bold> wkwkdaus79@gmail.com
         </TextBlock>
         <Button     Content="OK" 
                     Grid.Column="2" Grid.Row="2" 
